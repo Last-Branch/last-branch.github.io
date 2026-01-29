@@ -1,0 +1,32 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+  }
+  
+  .link {
+    display: block;
+    margin: 12px 0;
+    padding: 14px;
+    background: #1e293b;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 500;
+  }
+  
+  .link:hover {
+    background: #334155;
+  }
+  
