@@ -152,14 +152,9 @@ h2 {
 }
 
 .report-card h3 {
-  margin: 0 0 4px 0;
+  /* Increased margin-bottom to 16px since sublabel is removed */
+  margin: 0 0 16px 0;
   font-size: 1rem;
-}
-
-.sublabel {
-  font-size: 0.85rem;
-  color: var(--text-secondary);
-  margin-bottom: 16px;
 }
 
 .btn {
