@@ -1,5 +1,5 @@
-# lastbranch.github.io
+# last-branch.github.io
 
-Official landing page for the Last Branch team for links to repositories, documentation, and project resources.
+Official landing page for Sozia project of Last Branch team for links to repositories, documentation, and project resources.
 
-**Website:** https://last-branch.github.io/lastbranch.github.io/
+**Website:** last-branch.github.io
