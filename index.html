@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>Sozia Landing Page</title>
   <meta name="description" content="description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
   <div class="theme-toggle-wrap" aria-hidden="true">
-    <button type="button" class="theme-toggle" id="theme-toggle" title="Toggle light/dark theme" aria-label="Toggle light/dark theme">
-      <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
-      <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    <button type="button" class="theme-toggle" id="theme-toggle" title="Toggle light/dark theme"
+      aria-label="Toggle light/dark theme">
+      <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="4" />
+        <path
+          d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
+      </svg>
+      <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+      </svg>
       <span id="theme-label">Dark</span>
     </button>
   </div>
 
   <div class="main-wrapper">
-    
+
     <header>
       <div class="logo">Sozia</div>
       <p class="tagline">A Project By "Last Branch"</p>
@@ -30,19 +41,29 @@
     <section class="card content-card">
       <h2>About the Project</h2>
       <p>
-        Sozia is a real-time communication assistance tool designed to reduce barriers between individuals with hearing and/or speaking impairments and people who do not know sign language. The system aims to generate low-latency live subtitles by combining multiple modalities: AI-based speech recognition supported by lip reading and Turkish Sign Language recognition.
+        Sozia is a real-time communication assistance tool designed to reduce barriers between individuals with hearing
+        and/or speaking impairments and people who do not know sign language. The system aims to generate low-latency
+        live subtitles by combining multiple modalities: AI-based speech recognition supported by lip reading and
+        Turkish Sign Language recognition.
       </p>
       <p>
-        By leveraging both visual and auditory cues, Sozia aims to improve transcription robustness in challenging conditions such as noisy environments or situations where audio is not fully available. The planned architecture uses MediaPipe for face, hand and pose landmark tracking in both lip-reading and sign language recognition scenarios, Whisper for speech-to-text conversion, and custom trained deep learning models for Turkish Sign Language recognition, with a modular design that can be extended to additional languages and sign languages in future iterations.
+        By leveraging both visual and auditory cues, Sozia aims to improve transcription robustness in challenging
+        conditions such as noisy environments or situations where audio is not fully available. The planned architecture
+        uses MediaPipe for face, hand and pose landmark tracking in both lip-reading and sign language recognition
+        scenarios, Whisper for speech-to-text conversion, and custom trained deep learning models for Turkish Sign
+        Language recognition, with a modular design that can be extended to additional languages and sign languages in
+        future iterations.
       </p>
     </section>
 
     <section class="card content-card">
       <h2>Team Members</h2>
       <div class="team-grid">
-        
+
         <a href="https://www.linkedin.com/in/mehmet-altintas" target="_blank" class="team-member">
-          <img src="images/mehmet-a.png" onerror="this.src='https://ui-avatars.com/api/?name=Mehmet+Altintas&background=22c55e&color=fff'" alt="Mehmet Altıntaş">
+          <img src="images/mehmet-a.png"
+            onerror="this.src='https://ui-avatars.com/api/?name=Mehmet+Altintas&background=22c55e&color=fff'"
+            alt="Mehmet Altıntaş">
           <div class="member-info">
             <h3>Mehmet Altıntaş</h3>
             <p class="student-id">211401013</p>
@@ -50,8 +71,11 @@
           </div>
         </a>
 
-        <a href="https://www.linkedin.com/in/ilbey-efe-ta%C5%9Fabatl%C4%B1-b69818305" target="_blank" class="team-member">
-          <img src="images/ilbey.png" onerror="this.src='https://ui-avatars.com/api/?name=Ilbey+Efe&background=22c55e&color=fff'" alt="İlbey Efe Taşabatlı">
+        <a href="https://www.linkedin.com/in/ilbey-efe-ta%C5%9Fabatl%C4%B1-b69818305" target="_blank"
+          class="team-member">
+          <img src="images/ilbey.png"
+            onerror="this.src='https://ui-avatars.com/api/?name=Ilbey+Efe&background=22c55e&color=fff'"
+            alt="İlbey Efe Taşabatlı">
           <div class="member-info">
             <h3>İlbey Efe Taşabatlı</h3>
             <p class="student-id">221101026</p>
@@ -60,7 +84,9 @@
         </a>
 
         <a href="https://www.linkedin.com/in/aylin-barut%C3%A7u" target="_blank" class="team-member">
-          <img src="images/aylin.jpg" onerror="this.src='https://ui-avatars.com/api/?name=Aylin+Barutcu&background=22c55e&color=fff'" alt="Aylin Barutçu">
+          <img src="images/aylin.jpg"
+            onerror="this.src='https://ui-avatars.com/api/?name=Aylin+Barutcu&background=22c55e&color=fff'"
+            alt="Aylin Barutçu">
           <div class="member-info">
             <h3>Aylin Barutçu</h3>
             <p class="student-id">211101031</p>
@@ -69,7 +95,9 @@
         </a>
 
         <a href="https://www.linkedin.com/in/mehmetkaratekin" target="_blank" class="team-member">
-          <img src="images/mehmet-k.jpg" onerror="this.src='https://ui-avatars.com/api/?name=Mehmet+Karatekin&background=22c55e&color=fff'" alt="Mehmet Karatekin">
+          <img src="images/mehmet-k.jpg"
+            onerror="this.src='https://ui-avatars.com/api/?name=Mehmet+Karatekin&background=22c55e&color=fff'"
+            alt="Mehmet Karatekin">
           <div class="member-info">
             <h3>Mehmet Karatekin</h3>
             <p class="student-id">221101031</p>
@@ -83,30 +111,40 @@
     <section class="reports-section">
       <h2>Documentation</h2>
       <div class="grid">
-        
+
         <div class="report-card">
           <h3>Project Proposal</h3>
-          <a href="https://drive.google.com/file/d/1qq6vxIYcborFtVk-uiPLf2dejqiF-sZZ/view?usp=sharing" target="_blank" class="btn">View</a>
+          <a href="https://drive.google.com/file/d/1qq6vxIYcborFtVk-uiPLf2dejqiF-sZZ/view?usp=sharing" target="_blank"
+            class="btn">View</a>
         </div>
 
         <div class="report-card">
           <h3>Project Specifications Report</h3>
-          <a href="https://drive.google.com/file/d/1jlgO_1TRif9LShQsgn7yhDl8TdxtpA8j/view?usp=sharing" target="_blank" class="btn">View</a>
+          <a href="https://drive.google.com/file/d/1jlgO_1TRif9LShQsgn7yhDl8TdxtpA8j/view?usp=sharing" target="_blank"
+            class="btn">View</a>
         </div>
-        
+
         <div class="report-card">
           <h3>Analysis Report</h3>
-          <a href="https://drive.google.com/file/d/1g69f7dyOiALrHXplingrrUSW_nh2ELug/view?usp=sharing" target="_blank" class="btn">View</a>
+          <a href="https://drive.google.com/file/d/1g69f7dyOiALrHXplingrrUSW_nh2ELug/view?usp=sharing" target="_blank"
+            class="btn">View</a>
         </div>
-        
+
         <div class="report-card">
           <h3>High-Level Design Report</h3>
-          <a href="https://drive.google.com/file/d/1FVsYm4WL0G6eettnSSPhwamAdU2xwh8C/view?usp=sharing" target="_blank" class="btn">View</a>
+          <a href="https://drive.google.com/file/d/1FVsYm4WL0G6eettnSSPhwamAdU2xwh8C/view?usp=sharing" target="_blank"
+            class="btn">View</a>
+        </div>
+
+        <div class="report-card">
+          <h3>Low-Level Design Report</h3>
+          <a href="https://drive.google.com/file/d/117_fTIr9hPNqAxgqSdJF06nJfdonIiKT/view?usp=sharing" target="_blank"
+            class="btn">View</a>
         </div>
 
       </div>
     </section>
-  
+
     <section class="links-section">
       <a class="link-item" href="https://github.com/Last-Branch/lastbranch-slr" target="_blank">
         <span>View SLR Pipeline Code</span>
@@ -126,6 +164,7 @@
   </div>
 
   <script src="script.js"></script>
-  
-  </body>
+
+</body>
+
 </html>
